@@ -1,0 +1,31 @@
+.section-login {
+    @extend %flex-center;
+    width: $full-width;
+    height: $full-height;
+    background-image: $bg-login;
+    background-color: $color-bg-image;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .7;
+    background-blend-mode: multiply;
+}
+
+.login-box {
+    @extend %flex-center;
+    background-color: $color-white;
+    height: $height50;
+    width: $width50;
+    opacity: .8;
+    border-radius: 15px;
+
+    &__items{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+h1 {
+    font-weight: bold;
+}
+

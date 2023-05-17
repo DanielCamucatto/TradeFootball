@@ -6,7 +6,7 @@ $colors: (
     warning: $color-warning,
     info: $color-info,
     light: $color-light,
-    dark: $color-dark, 
+    dark: $color-dark,
 
     blue-100: darken($color-blue, 5%),
     blue-200: darken($color-blue, 10%),
@@ -17,7 +17,7 @@ $colors: (
     blue-700: darken($color-blue, 35%),
     blue-800: darken($color-blue, 40%),
     blue-900: darken($color-blue, 45%),
-    
+
     green-100: darken($color-green, 5%),
     green-200: darken($color-green, 10%),
     green-300: darken($color-green, 15%),
@@ -27,7 +27,7 @@ $colors: (
     green-700: darken($color-green, 35%),
     green-800: darken($color-green, 40%),
     green-900: darken($color-green, 45%),
-    
+
     red-100: darken($color-red, 5%),
     red-200: darken($color-red, 10%),
     red-300: darken($color-red, 15%),
@@ -78,3 +78,12 @@ $colors: (
     yellow-800: darken($color-yellow, 40%),
     yellow-900: darken($color-yellow, 45%),
 );
+
+$color-primary: $color-var-1;
+$color-secondary: $color-var-2;
+$color-success: $color-success;
+$color-danger: $color-danger;
+$color-warning: $color-warning;
+$color-info: $color-info;
+$color-light: $color-light;
+$color-dark: $color-dark;
