@@ -1,0 +1,11 @@
+.btn{
+    border: none;
+    padding: .4rem 1.5rem;
+    border-radius: 5px;
+}
+
+.btn-login{
+    &:hover{
+        background-color: complement($color-primary);
+    }
+}
